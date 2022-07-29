@@ -25,6 +25,7 @@ def clear():
         _ = system('clear')
         
 def cash_out_or_bet():
+	global money
 	choice2=str(input("Do you want to cash out or place another bet? (Y/N) : "))
 	if choice2=='Y' or choice2=='y':
 		if money==0:
